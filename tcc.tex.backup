@@ -1,0 +1,193 @@
+%% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% %%
+%%        TCC de Rafael M. Lins de Araújo, 2016        %%
+%% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% %%
+
+% Alterado por Prof. Fernando C.B.G. Santana
+% A simplificação visa melhorar a navegação e edição
+
+%% Preâmbulo (configurações, pacotes e tudo mais)
+
+
+\documentclass[
+	%article,			% Define que este será um artigo (e não uma tese/monografia/relatório)
+	12pt,				% Fonte: 12pt
+	oneside,			% Impressão: oneside = 1 face, twoside = 2 faces (frente-e-verso)
+    %openright,			% capítulos começam em página ímpar (use apenas se usar "twoside")
+	a4paper,			% Tamanho do Papel: A4
+    chapter=TITLE,		% Todos os capítulos devem ficam em caixa alta
+    section=TITLE,		% Todas as seções devem ficar em caixa alta
+	english,			% Adiciona Idioma para Hifenização: Inglês
+    %spanish,			% Adiciona Idioma para Hifenização: Espanhol
+    %french,			% Adiciona Idioma para Hifenização: Francês
+	brazil				% Adiciona Idioma para Hifenização: Português do Brasil (o último idioma se torna o principal do documento)
+]{abntex2}				% Utilizar ABNTeX2
+
+
+
+%% Tipografia
+%% Abra este arquivo e selecione uma das opções de fonte nele. A padrão é Times.
+\input{configuracoes/tipografia}
+
+
+%% Pacotes usados pelo documento (se não entender não mexa, hehehe)
+\usepackage{courier}                    % Permite a utilização da fonte Courier (para códigos-fonte)
+\usepackage[T1]{fontenc}				% Seleção de códigos de fonte.
+\usepackage[utf8]{inputenc}				% Codificação do documento (conversão automática dos acentos)
+\usepackage{indentfirst}				% Indenta o primeiro parágrafo de cada seção.
+\usepackage{nomencl} 					% Usado pela Lista de símbolos
+\usepackage{color}						% Controle das cores
+\usepackage{graphicx}					% Inclusão de gráficos
+\usepackage{float}						% Melhorias para posicionamento de gráficos e tabelas
+\usepackage{microtype} 					% Melhorias na justificação
+\usepackage{lastpage}   		        % Dá acesso ao número da última página do documento
+\usepackage{booktabs}					% Comandos para tabelas
+\usepackage{multirow, array}			% Múltiplas linhas e colunas em tabelas
+\usepackage[hyphenbreaks]{breakurl}		% Hifenação para URLs no texto
+\usepackage[table,xcdraw]{xcolor}       % Cores para algumas tabelas especiais
+\usepackage[brazilian,hyperpageref]{backref}	 % Inclui nas Referências as páginas onde há as citações
+\usepackage{simplecd}                   % Pacote para gerar capa do CD
+\usepackage[final]{pdfpages}            % Pacote para incluir um PDF dentro de outro (ficha catalográfica)
+
+
+
+%% Adiciona as alterações do ABNTeX-IFPI
+\usepackage{abntex-ifpi/abntex-ifpi}	% Modificações do ABNTeX para o IFPI
+\usepackage{abntex-ifpi/tikz-uml}	    % Pacote Tikz UML para criar UML no LaTeX
+
+
+
+%% Metadados
+\input{configuracoes/pdf}
+%% Metadados
+\input{configuracoes/metadados}
+%% Configuração do "Citado nas páginas"
+\input{configuracoes/citacoes}
+%% Cores
+\input{configuracoes/cores}
+%% Espaçamentos
+\input{configuracoes/espacamentos}
+
+
+
+
+
+
+%% Início do Documento
+\begin{document}
+
+%% Documento será escrito em Português do Brasil
+\selectlanguage{brazil}
+
+
+
+%% Elementos Pré Textuais
+% ----------------------
+%% 
+%% Segundo o manual do IFPI, eles devem ser os seguintes (nessa ordem):
+%%  1. Capa (obrigatório)
+%%  2. Folha de rosto (obrigatório)
+%%  3. Errata (opcional)
+%%  4. Folha de aprovação (obrigatório)
+%%  5. Dedicatória (opcional)
+%%  6. Agradecimentos (opcional)
+%%  7. Epígrafe (opcional)
+%%  8. Resumo (obrigatório)
+%%  9. Abstract/Resumo em outra língua (obrigatório)
+%% 10. Lista de Ilustrações (opcional)
+%% 11. Lista de Tabelas (opcional)
+%% 12. Lista de Abreviaturas e Siglas (opcional)
+%% 13. Lista de Símbolos (opcional)
+%% 14. Sumário (obrigatório)
+%% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% %%
+
+%% 01: Capa
+\imprimircapa
+
+%% 02: Folha de Rosto
+%% OBS: O asterisco indica que haverá ficha bibliográfica (só funciona para impressão frente-e-verso)
+\imprimirfolhaderosto*
+
+%% Ficha Catalográfica (acho que é melhor adicionar via \includepdf depois)
+%\input{pre-textual/ficha-catalografica}
+
+
+%% 03: Errata
+\input{pre-textual/errata}
+
+
+
+%% 04: Folha de Aprovação
+\imprimirfolhadeaprovacao
+%% Use esta se forem 4 membros na banca:
+%\imprimirfolhadeaprovacaoduascolunas
+
+%% 05: Dedicatória
+%\input{pre-textual/dedicatoria}
+
+%% 06: Agradecimentos
+%\input{pre-textual/agradecimentos}
+
+%% 07: Epígrafe
+%\input{pre-textual/epigrafe}
+
+%% 08: Resumo
+\input{pre-textual/resumo}
+
+%% 09: Abstract/Resumo em língua estrangeira
+\input{pre-textual/resumo-lingua-estrangeira}
+
+%% 10: Lista de Ilustrações
+\input{pre-textual/lista-de-ilustracoes}
+
+%% 11: Lista de Tabelas
+\input{pre-textual/lista-de-tabelas}
+
+%% 12: Lista de Abreviaturas e Siglas
+\input{pre-textual/siglas}
+
+%% 13: Lista de Símbolos
+\input{pre-textual/simbolos}
+
+%% 14: Sumário (o asterisco retira o próprio sumário do sumário)
+\pdfbookmark[0]{\contentsname}{toc}
+\tableofcontents*
+\cleardoublepage
+
+
+
+
+
+%% Indica que a partir daqui ficarão os elementos textuais (TCC em si)
+\textual
+%% Inclui os capítulos do TCC
+\input{capitulos/introducao.tex}
+\input{capitulos/fundamentacao-teorica.tex}
+\input{capitulos/metodologia.tex}
+\input{capitulos/ajuda-ai.tex}
+\input{capitulos/conclusao.tex}
+\input{capitulos/trabalhos-futuros.tex}
+
+
+%% Finalizações para o PDF
+\bookmarksetup{startatroot}
+
+
+%% Indica ao LaTeX que a partir deste ponto ficarão os elementos pós-textuais (Anexos... etc.)
+\postextual
+
+%% 01: Referências bibliográficas
+\bibliography{pos-textual/bibliografia}
+
+%% 02: Glossário
+\input{pos-textual/glossario}
+
+%% 03: Apêndices
+\input{pos-textual/apendices}
+
+%% 04: Anexos
+\input{pos-textual/anexos}
+
+%% 05: Índices
+\input{pos-textual/indices}
+
+\end{document}

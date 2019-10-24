@@ -1,0 +1,80 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.6 }
+
+\bibitem[Alcântara 2004]{alcantara:2004}
+\abntrefinfo{Alcântara}{ALCâNTARA}{2004}
+{ALCâNTARA, I.~D. de O. Tradução, adaptação e aplicação do pdq-4
+  (personality diagnostic questionnaire 4) para uma amostra de pacientes
+  internados e ambulatoriais.
+2004.}
+
+\bibitem[Autism 2016]{kidshealth:2016}
+\abntrefinfo{Autism}{AUTISM}{2016}
+{AUTISM. 2016.
+Dispon{\'\i}vel em: \url{http://kidshealth.org/en/kids/autism.html}.}
+
+\bibitem[bHave ABA 2017]{bhave:2017}
+\abntrefinfo{bHave\ldots}{BHAVE\ldots}{2017}
+{BHAVE ABA. 2017.
+Dispon{\'\i}vel em: \url{http://bhave.life/}.}
+
+\bibitem[Bosa e Callias 1989]{bosa:2000}
+\abntrefinfo{Bosa e Callias}{BOSA; CALLIAS}{1989}
+{BOSA, C.; CALLIAS, M. \emph{Autismo -- breve revisão de diferentes
+  abordagens}. [S.l.: s.n.], 1989.}
+
+\bibitem[Cangame 2017]{cangame:2017}
+\abntrefinfo{Cangame}{CANGAME}{2017}
+{CANGAME. 2017.
+Dispon{\'\i}vel em: \url{http://cangame.lifeupbrasil.com.br/}.}
+
+\bibitem[Ferreira e Munster 2015]{ferreira:2014}
+\abntrefinfo{Ferreira e Munster}{FERREIRA; MUNSTER}{2015}
+{FERREIRA, E.~F.; MUNSTER, M. de A.~V. Métodos de avaliação do comportamento
+  adaptativo em pessoas com deficiência intelectual: uma revisão de
+  literatura. In:  . [S.l.]: Revista Educação Especial, 2015. p. 193--208.}
+
+\bibitem[Frith 1989]{frith:1989}
+\abntrefinfo{Frith}{FRITH}{1989}
+{FRITH, U. \emph{Autism -- explaining the enigma}. [S.l.]: Oxford: Blackwell
+  Publishing, 1989.}
+
+\bibitem[Nascimento 2013]{nascimento:2013}
+\abntrefinfo{Nascimento}{NASCIMENTO}{2013}
+{NASCIMENTO, M. I.~. Manual diagnóstico e estatístico de transtornos mentais
+  -- dsm-5. In:  . [S.l.]: Artmed, 2013.}
+
+\bibitem[Pereira, Wagner e Riesgo 2007]{pereira:2007}
+\abntrefinfo{Pereira, Wagner e Riesgo}{PEREIRA; WAGNER; RIESGO}{2007}
+{PEREIRA, A.~M.; WAGNER, M.~B.; RIESGO, R. dos S. Autismo infantil - tradução
+  e validação da cars(childhood autism rating scale) para uso no brasil. In:
+  . [S.l.]: Universidade Federal do Rio Grande do Sul, 2007.}
+
+\bibitem[Robins et al. 2001]{robins:2001}
+\abntrefinfo{Robins et al.}{ROBINS et al.}{2001}
+{ROBINS, D.~L. et al. The modified checklist for autism in toddlers -- an
+  initial study investigating the early detection of autism and pervasive
+  developmental disorders. In:  . [S.l.]: Journal of Autism and Developmental
+  Disorders, 2001.}
+
+\bibitem[Schopler, Reichler e Renner 1988]{schopler:1988}
+\abntrefinfo{Schopler, Reichler e Renner}{SCHOPLER; REICHLER; RENNER}{1988}
+{SCHOPLER, E.; REICHLER, R.; RENNER, B. Childhood autism rating scale (cars).
+  In:  . [S.l.]: Western Psychological Services, 1988.}
+
+\bibitem[Silva, Gaiato e Reveles 2000]{silva:2012}
+\abntrefinfo{Silva, Gaiato e Reveles}{SILVA; GAIATO; REVELES}{2000}
+{SILVA, A. B.~B.; GAIATO, M.~B.; REVELES, L.~T. \emph{Mundo Singular -- Entenda
+  o autismo}. [S.l.]: Fontanar, 2000.}
+
+\bibitem[Stella, Mundy e Tuchman 1999]{stella:1999}
+\abntrefinfo{Stella, Mundy e Tuchman}{STELLA; MUNDY; TUCHMAN}{1999}
+{STELLA, J.; MUNDY, P.; TUCHMAN, R. Social and nonsocial factor in the
+  childhood autism rating scale. In:  . [S.l.]: Journal of Autism and
+  Development Disorders, 1999. p. 307--317.}
+
+\end{thebibliography}

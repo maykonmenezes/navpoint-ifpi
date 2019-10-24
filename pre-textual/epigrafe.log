@@ -1,0 +1,379 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.7.4)  28 AUG 2017 23:39
+entering extended mode
+**./epigrafe.tex
+(epigrafe.tex
+LaTeX2e <2017/01/01> patch level 1
+Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
+
+! LaTeX Error: Environment epigrafe undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 \begin{epigrafe}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 \begin{flushright}
+                      
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 5--5
+[] 
+ []
+
+Missing character: There is no Ã in font cmti10!
+Missing character: There is no ¡ in font cmti10!
+Missing character: There is no Ã in font cmti10!
+Missing character: There is no ¡ in font cmti10!
+Missing character: There is no Ã in font cmti10!
+Missing character: There is no © in font cmti10!
+Missing character: There is no Ã in font cmti10!
+Missing character: There is no ³ in font cmti10!
+Missing character: There is no Ã in font cmti10!
+Missing character: There is no § in font cmti10!
+
+Overfull \hbox (20.10545pt too wide) in paragraph at lines 6--6
+ \OT1/cmr/m/it/10 ``Em
+ []
+
+
+Overfull \hbox (24.0221pt too wide) in paragraph at lines 6--6
+ \OT1/cmr/m/it/10 nosso
+ []
+
+
+Overfull \hbox (32.45538pt too wide) in paragraph at lines 6--6
+ \OT1/cmr/m/it/10 mundo,
+ []
+
+
+Overfull \hbox (5.11108pt too wide) in paragraph at lines 6--6
+ \OT1/cmr/m/it/10 a
+ []
+
+
+Overfull \hbox (19.67763pt too wide) in paragraph at lines 6--6
+ \OT1/cmr/m/it/10 tem-
+ []
+
+
+Overfull \hbox (16.86653pt too wide) in paragraph at lines 6--6
+ \OT1/cmr/m/it/10 pes-
+ []
+
+
+Overfull \hbox (18.14432pt too wide) in paragraph at lines 6--6
+ \OT1/cmr/m/it/10 tade
+ []
+
+
+Overfull \hbox (27.72755pt too wide) in paragraph at lines 6--6
+ \OT1/cmr/m/it/10 acabar
+ []
+
+
+Overfull \hbox (4.59996pt too wide) in paragraph at lines 6--6
+ \OT1/cmr/m/it/10 e
+ []
+
+
+Overfull \hbox (5.11108pt too wide) in paragraph at lines 6--6
+ \OT1/cmr/m/it/10 a
+ []
+
+
+Overfull \hbox (21.72208pt too wide) in paragraph at lines 6--6
+ \OT1/cmr/m/it/10 noite
+ []
+
+
+Overfull \hbox (14.4388pt too wide) in paragraph at lines 6--6
+ \OT1/cmr/m/it/10 dar
+ []
+
+
+Overfull \hbox (11.49992pt too wide) in paragraph at lines 6--6
+ \OT1/cmr/m/it/10 lu-
+ []
+
+
+Overfull \hbox (13.92767pt too wide) in paragraph at lines 6--6
+ \OT1/cmr/m/it/10 gar
+ []
+
+
+Overfull \hbox (5.11108pt too wide) in paragraph at lines 6--6
+ \OT1/cmr/m/it/10 a
+ []
+
+
+Overfull \hbox (13.54437pt too wide) in paragraph at lines 6--6
+ \OT1/cmr/m/it/10 um
+ []
+
+
+Overfull \hbox (20.44432pt too wide) in paragraph at lines 6--6
+ \OT1/cmr/m/it/10 novo
+ []
+
+
+Overfull \hbox (27.59984pt too wide) in paragraph at lines 6--6
+ \OT1/cmr/m/it/10 aman-
+ []
+
+
+Overfull \hbox (25.172pt too wide) in paragraph at lines 6--6
+ \OT1/cmr/m/it/10 hecer.
+ []
+
+
+Overfull \hbox (7.66663pt too wide) in paragraph at lines 6--6
+ \OT1/cmr/m/it/10 O
+ []
+
+
+Overfull \hbox (14.82213pt too wide) in paragraph at lines 6--6
+ \OT1/cmr/m/it/10 im-
+ []
+
+
+Overfull \hbox (17.50542pt too wide) in paragraph at lines 6--6
+ \OT1/cmr/m/it/10 por-
+ []
+
+
+Overfull \hbox (21.97762pt too wide) in paragraph at lines 6--6
+ \OT1/cmr/m/it/10 tante
+ []
+
+
+Overfull \hbox (18.39986pt too wide) in paragraph at lines 6--6
+ \OT1/cmr/m/it/10 con-
+ []
+
+
+Overfull \hbox (14.9499pt too wide) in paragraph at lines 6--6
+ \OT1/cmr/m/it/10 fiar
+ []
+
+
+Overfull \hbox (12.7777pt too wide) in paragraph at lines 6--6
+ \OT1/cmr/m/it/10 em
+ []
+
+
+Overfull \hbox (12.01102pt too wide) in paragraph at lines 6--6
+ \OT1/cmr/m/it/10 to-
+ []
+
+
+Overfull \hbox (14.31104pt too wide) in paragraph at lines 6--6
+ \OT1/cmr/m/it/10 dos
+ []
+
+
+Overfull \hbox (14.56656pt too wide) in paragraph at lines 6--6
+ \OT1/cmr/m/it/10 que
+ []
+
+
+Overfull \hbox (35.77759pt too wide) in paragraph at lines 6--6
+ \OT1/cmr/m/it/10 amamos
+ []
+
+
+Overfull \hbox (4.59996pt too wide) in paragraph at lines 6--6
+ \OT1/cmr/m/it/10 e
+ []
+
+
+Overfull \hbox (25.81094pt too wide) in paragraph at lines 6--6
+ \OT1/cmr/m/it/10 nunca
+ []
+
+
+Overfull \hbox (13.28879pt too wide) in paragraph at lines 6--6
+ \OT1/cmr/m/it/10 de-
+ []
+
+
+Overfull \hbox (10.73326pt too wide) in paragraph at lines 6--6
+ \OT1/cmr/m/it/10 si-
+ []
+
+
+Overfull \hbox (7.66661pt too wide) in paragraph at lines 6--6
+ \OT1/cmr/m/it/10 s-
+ []
+
+
+Overfull \hbox (19.80542pt too wide) in paragraph at lines 6--6
+ \OT1/cmr/m/it/10 tir...
+ []
+
+
+Overfull \hbox (11.52216pt too wide) in paragraph at lines 6--6
+ \OT1/cmr/m/it/10 Ns
+ []
+
+
+Overfull \hbox (12.01102pt too wide) in paragraph at lines 6--6
+ \OT1/cmr/m/it/10 to-
+ []
+
+
+Overfull \hbox (14.31104pt too wide) in paragraph at lines 6--6
+ \OT1/cmr/m/it/10 dos
+ []
+
+
+Overfull \hbox (13.28879pt too wide) in paragraph at lines 6--6
+ \OT1/cmr/m/it/10 de-
+ []
+
+
+Overfull \hbox (12.77766pt too wide) in paragraph at lines 6--6
+ \OT1/cmr/m/it/10 ve-
+ []
+
+
+Overfull \hbox (17.37769pt too wide) in paragraph at lines 6--6
+ \OT1/cmr/m/it/10 mos
+ []
+
+
+Overfull \hbox (22.48875pt too wide) in paragraph at lines 6--6
+ \OT1/cmr/m/it/10 man-
+ []
+
+
+Overfull \hbox (12.13878pt too wide) in paragraph at lines 6--6
+ \OT1/cmr/m/it/10 ter
+ []
+
+
+Overfull \hbox (17.37766pt too wide) in paragraph at lines 6--6
+ \OT1/cmr/m/it/10 viva
+ []
+
+
+Overfull \hbox (5.11108pt too wide) in paragraph at lines 6--6
+ \OT1/cmr/m/it/10 a
+ []
+
+
+Overfull \hbox (12.26657pt too wide) in paragraph at lines 6--6
+ \OT1/cmr/m/it/10 es-
+ []
+
+
+Overfull \hbox (16.9943pt too wide) in paragraph at lines 6--6
+ \OT1/cmr/m/it/10 per-
+ []
+
+
+Overfull \hbox (30.18874pt too wide) in paragraph at lines 6--6
+ \OT1/cmr/m/it/10 ana...''
+ []
+
+Missing character: There is no Ã in font cmti10!
+Missing character: There is no § in font cmti10!
+Missing character: There is no Ã in font cmti10!
+Missing character: There is no £ in font cmti10!
+
+Overfull \hbox (35.90532pt too wide) in paragraph at lines 6--7
+ []\OT1/cmr/m/it/10 (Chrono
+ []
+
+
+Overfull \hbox (21.84982pt too wide) in paragraph at lines 6--7
+ \OT1/cmr/m/it/10 Trig-
+ []
+
+
+Overfull \hbox (16.4832pt too wide) in paragraph at lines 6--7
+ \OT1/cmr/m/it/10 ger,
+ []
+
+
+Overfull \hbox (15.33325pt too wide) in paragraph at lines 6--7
+ \OT1/cmr/m/it/10 600
+ []
+
+
+Overfull \hbox (24.18318pt too wide) in paragraph at lines 6--7
+ \OT1/cmr/m/it/10 A.D.,
+ []
+
+
+Overfull \hbox (28.38872pt too wide) in paragraph at lines 6--7
+ \OT1/cmr/m/it/10 Mano-
+ []
+
+
+Overfull \hbox (10.73328pt too wide) in paragraph at lines 6--7
+ \OT1/cmr/m/it/10 lia
+ []
+
+
+Overfull \hbox (28.87756pt too wide) in paragraph at lines 6--7
+ \OT1/cmr/m/it/10 Cathe-
+ []
+
+
+Overfull \hbox (19.54987pt too wide) in paragraph at lines 6--7
+ \OT1/cmr/m/it/10 dral,
+ []
+
+
+Overfull \hbox (27.72758pt too wide) in paragraph at lines 6--7
+ \OT1/cmr/m/it/10 traduo
+ []
+
+
+Overfull \hbox (22.98592pt too wide) in paragraph at lines 6--7
+ \OT1/cmr/m/it/10 livre)
+ []
+
+
+! LaTeX Error: \begin{document} ended by \end{epigrafe}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8 \end{epigrafe}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+)
+! Emergency stop.
+<*> ./epigrafe.tex
+                  
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 11 strings out of 493333
+ 136 string characters out of 3139195
+ 55255 words of memory out of 3000000
+ 3640 multiletter control sequences out of 15000+200000
+ 3986 words of font info for 15 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 14i,1n,10p,302b,122s stack positions out of 5000i,500n,10000p,200000b,50000s
+!  ==> Fatal error occurred, no output PDF file produced!
