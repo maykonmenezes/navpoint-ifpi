@@ -14,14 +14,18 @@ Nesse trabalho, discutiremos sobre um sistema de navegação e localização fei
 
 
 \section{Justificativa}
-Justificar a escolha do tema.
+A situação atual dos serviços de navegação indoor, inclui dificuldades de varias ordens, mas as mais comuns são as relacionadas a custo com equipamentos e implementação. Com a impossibilidade de utilização do GPS em ambientes fechados, que é um equipamento que atualmente é de fácil obtenção, o custo para promover meios de localizar e navegar nesse cenário geralmente se tornam caros. Existem atualmente vários sensores para promover localização indoor, dentre eles estão o sensores ultrassónicos, sensores de infravermelho, magnetômetros e sensores de radio. Mas todos eles requerem uma infraestrutura eletrônica permanente para facilitar as medições, e objetos localizáveis que dependem dessa infraestrutura precisam de sensores e atuadores especiais. Existem vários problemas práticos com esse tipo de abordagem, como consumo de energia, fiação e custos com infraestrutura em geral inibem a implantação dessa tecnologia em prédios e outros ambientes fechados.
+
+Sistemas de navegação baseados em GPS tem se tornado bastante popular, principalmente porque permite que as pessoas explorem áreas desconhecidas rapidamente. Entretanto, o GPS funciona somente para ambientes externos, os links de satelite necessarios são bloqueados por conta da estrutura e se tornam não confiaveis dentro dos predios.
+
+Neste contexto, o sistema para navegação e localização indoor apresentado neste trabalho ganha vantagem por associar informações pré-existentes no ambiente com dados dos sensores dos smartphones do usuarios, provendo uma solução viavel e de baixo custo.
 
 
 
 \section{Objetivos}
 Nesta seção os objetivos gerais e especificos são enunciados.
 \subsection{Objetivo Geral}
-O objetivo geral deste trabalho é apresentar uma solução para localização e navegação de um ponto a outro em ambiente fechado. O desenvolvimento do projeto almeja prover um protótipo de aplicativo de navegação interna, mas que utiliza apenas informações pré-existentes do ambiente e os sensores do smartphone. A navegação acontece em rotas já pré-estabelecidas do ambiente mapeado, servindo como um guia dos usuários por destinos comuns e trajetos mais rápidos, visando prover uma maneira de navegar rapidamente entre locais do ambiente interno.
+O objetivo geral deste trabalho é apresentar uma solução de baixo custo para localização e navegação de pessoas de forma rápida e eficiente por ambientes internos. O desenvolvimento do projeto almeja prover um protótipo de aplicativo de navegação interna, mas que utiliza apenas informações pré-existentes do ambiente e os sensores do smartphone. A navegação acontece em rotas já pré-estabelecidas do ambiente mapeado, servindo como um guia dos usuários por destinos comuns e trajetos mais rápidos, visando prover uma maneira de navegar rapidamente entre locais do ambiente interno.
 
 
 
@@ -32,10 +36,19 @@ O objetivo geral deste trabalho é apresentar uma solução para localização e
   \item Notificar o usuário com informações relevantes do ambiente baseado na sua localização atual;
 \end{lista}
 
-\textbf{RESUMO}
+\section*{RESUMO}
 O presente capítulo apresenta uma contextualização sobre o problema tratado neste
 trabalho e a justificativa de tal assunto, que pode ser resumida como sendo a proposta de um sistema de navegação e localização projetado para guiar a locomoção de pessoas dentro do Instituto.  Ao final do
 capítulo, foram detalhados os objetivos gerais e específicos do trabalho.
+
 Os próximos capítulos estão organizados da seguinte forma:
+
+\begin{lista}
+  \item \textbf{Fundamentação Teórica:} Neste capítulo são apresentados todos os conceitos teóricos utilizados no desenvolvimento da solução proposta no presente trabalho;
+ \item \textbf{Trabalhos Relacionados:} Neste capítulo são apresentados os principais trabalhos que se relacionam a proposta de solução para navegação em ambientes fechados ;
+  \item \textbf{NavPoint:} Capítulo dedicado a apresentação da solução implementada, detalhando funcionalidades, utilização e demais detalhes da implementação;
+ \item \textbf{Protótipo e Testes:} Capítulo dedicado a apresentação de alguns testes feitos com a ferramenta, bem como o cenário utilizado para os mesmos;
+  \item \textbf{Conclusão:} Neste capítulo é feita a conclusão do trabalho dado seus objetivos propostos e são listados os trabalhos futuros para melhorar e/ou expandir a utilização da solução.
+\end{lista}
 
 
